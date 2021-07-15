@@ -176,8 +176,8 @@ export default {
         .then(async () => {
           await Swal.fire({
             icon: "success",
-            title: "dato eliminado",
-            text: "El dato se eliminado",
+            title: "Dato eliminado",
+            text: "Dato eliminado con éxito",
             timer: 1000,
           });
           
@@ -192,7 +192,7 @@ export default {
           await Swal.fire({
             icon: 'success',
             title: 'Dato Actualizado',
-            text: 'Dato actualizó',
+            text: 'Dato actualizado con éxito',
             timer:1000
           });
           this.getUsers();
