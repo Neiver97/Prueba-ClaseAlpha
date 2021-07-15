@@ -14,7 +14,7 @@
                     </div>
                     <div class="botones">
                         <button type="submit" class="btn btn-secondary btn-lg mx-2">Enviar</button>
-                        <router-link type="button" href="/login" class="btn btn-secondary btn-lg">Atrás</router-link>
+                        <router-link type="button" to="/login" class="btn btn-secondary btn-lg">Atrás</router-link>
                     </div>
 
                 </div>
