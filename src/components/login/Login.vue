@@ -45,7 +45,7 @@ export default {
                     await Swal.fire({
                         icon: 'success',
                         title: 'Bienvenido',
-                        text: 'Correo y/o Contraseña incorrecta',
+                        text: 'Bienvenido a ClaseAlpha',
                         timer:1000
                     });
                 this.$router.push({name: 'Home'})
