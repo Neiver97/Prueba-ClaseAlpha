@@ -15,7 +15,7 @@
                         <input type="password" class="form-control" v-model="clave" required placeholder="Contraseña" id="exampleInputPassword1">
                     </div>
                     <div class="mb-3 form-check">
-                        <a href="/createUserAuth" class="link-primary fs-6 d-flex fw-bolder">Registrar usuario</a>
+                        <router-link to="/createUserAuth" class="link-primary fs-6 d-flex fw-bolder">Registrar usuario</router-link>
                         <input type="checkbox" class="form-check-input"  id="exampleCheck1">
                         <label class="form-check-label fw-bold" for="exampleCheck1">Recordar este usuario</label>
                     </div>
